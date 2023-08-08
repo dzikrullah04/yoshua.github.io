@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg.jpg');
+    filter: contrast();
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .bungkus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }.typing-container {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #333;
+    padding: 10px;
+  }
+  .jarak {
+    margin-top: 40vh;
+  }
+  #wrap-type {
+	text-align: center;
+}
+.who-says {
+    font-family: Arial, sans-serif;
+    color: orange;
+}
+
+#text {
+	display: inline-block;
+	vertical-align: middle;
+	color: orange;
+	letter-spacing: 2px;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: orange;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: orange; 
+	}
+}
+  /* bawaaan */
+
+
+  .bg-sani {
+    background-color: rgb(33, 37, 41, 0.5);
+  }
+
+
